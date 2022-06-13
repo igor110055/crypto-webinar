@@ -4174,7 +4174,6 @@ select.change-lang {
       width: 290px;
       height: 290px;
       padding: 20px;
-      padding-top: 100px;
       margin-left: 0;
       margin: 0 auto;
       margin-top: 40px;}
@@ -4207,9 +4206,6 @@ select.change-lang {
 .yellow-circle__icon {
   width: 195px;
   margin-top: -20px; }
-  @media only screen and (max-width: 720px) {
-    .yellow-circle__icon {
-      width: 95px; } }
 
 .yellow-circle__descriptor {
   width: 133px;
