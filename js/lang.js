@@ -56,6 +56,14 @@ const langArr = {
 		"ru": 'Базовый тариф',
 		"ua": 'Базовий тариф',
 	},
+	"basic-button-booking": {
+		"ru": '<img src="images/btn-booking.png" alt="">',
+		"ua": '<img src="images/btn-booking-ukr.png" alt="">',
+	},
+	"pro-button-booking": {
+		"ru": '<img src="images/btn-booking.png" alt="">',
+		"ua": '<img src="images/btn-booking-ukr.png" alt="">',
+	},
 	"basic-bonus-title": {
 		"ru": 'Цена и бонусы для участников вебинара',
 		"ua": 'Ціна та бонуси для учасників вебінару',
