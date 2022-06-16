@@ -234,5 +234,23 @@ const langArr = {
 		"ru": "на 2022 год",
 		"ua": "на 2022 рік",
 	},
+
+	"popup-title": {
+		"ru": 'Заполните данные чтобы перейти к оплате',
+		"ua": 'Заповніть дані, щоб перейти до оплати',
+	},
+
+	"popup-button": {
+		"ru": '<img src="images/button/participation.png" alt="">',
+		"ua": '<img src="images/button/participation1.png" alt="">',
+	},
+	"popup-input-phone": {
+		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
+		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	},
+	"popup-input-name": {
+		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
+		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
+	},
 	
 }

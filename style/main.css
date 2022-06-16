@@ -961,6 +961,18 @@ label {
   color: #fff;
 }
 
+.lang-popup-input-name {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.lang-popup-input-phone {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
 .tariffs-block {
   position: relative;
   display: block;
@@ -1191,7 +1203,7 @@ label {
   font-size: 13px;
   font-weight: 700;
   line-height: 1.2;
-  color: #7A651F;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -3488,7 +3500,7 @@ select.change-lang {
   background: #0F0F0F;
   -webkit-border-radius: 12px;
           border-radius: 12px;
-  display: none;
+  display: block;
   margin: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -3497,6 +3509,10 @@ select.change-lang {
     .popup-application {
       width: 320px;
       padding: 50px 20px; } }
+
+.popup-application.active {
+  display: block;
+}
 
 .popup-close {
   width: 35px;

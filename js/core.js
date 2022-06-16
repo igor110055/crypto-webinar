@@ -66,6 +66,7 @@ $('.js-popup').click(function(e) {
 	e.preventDefault();
 	let popupItem = $(this).data('popup');
 	$('body').addClass('open-frame');
+	$('.popup').fadeIn(); 
 	$('.popup-frame').css("display", "flex").hide().fadeIn();
 	$('.popup[data-popup = ' + popupItem +']').fadeIn();
 });
